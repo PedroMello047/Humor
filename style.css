@@ -1,0 +1,35 @@
+body {
+    background-image: linear-gradient(to right, rgb(0, 0, 0) , rgb(255, 0, 0));  
+    overflow-x: hidden;
+}
+
+html ::-webkit-scrollbar {
+    width: 10px;
+  }
+  html ::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    background: #ffffff;
+  }
+  html ::-webkit-scrollbar-track {
+    background: #000000;
+  }
+
+video {
+    width: 100%;
+    margin:0 auto;
+    margin-top: 125px;
+    display: flex;
+    justify-content: space-around;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 768x){
+    .video{
+        width: 100%;
+        display: flex;
+        flex-direction: column; 
+    }
+}
